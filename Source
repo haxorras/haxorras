@@ -2140,7 +2140,7 @@ FlingArms.MouseButton1Click:connect(function()
 	end
 end)
 end)
-OthersSection:NewButton("Chat Bypasser B4kers", "Executes Chat Bypass", function()
+ScriptSection:NewButton("Chat Bypasser B4kers", "Executes Chat Bypass", function()
      local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("B4krs Chat Bypasser V2", "BloodTheme")
